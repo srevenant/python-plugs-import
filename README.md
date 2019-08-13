@@ -12,3 +12,8 @@ Test both ways with:
     pip3 install -r requirements.txt
     ./main.py plugs_ugly
     ./main.py plugs_b0rk
+
+To see the difference, compare the differences of the individual plugs:
+
+    ./plug_ugly   # this actually works, but it can't bring in code, so its not DRY
+    ./plugs_b0rk  # this is preferred... but is not functioning
